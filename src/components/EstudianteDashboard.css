@@ -1,0 +1,61 @@
+.admin-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1, h2 {
+    color: #444;
+    text-align: center;
+}
+
+.logout-button, .navigate-button, .search-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover, .navigate-button:hover, .search-button:hover {
+    background-color: #0056b3;
+}
+
+.info-group, .form-group {
+    margin-bottom: 15px;
+}
+
+.info-group strong {
+    display: inline-block;
+    min-width: 150px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.navigation-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}

@@ -1,0 +1,77 @@
+/* Contenedor principal con imagen de fondo */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://cdn.pixabay.com/photo/2021/06/02/09/25/sunset-6303966_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+/* Tarjeta de login */
+.login-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Título del formulario */
+.login-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo de los campos */
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botón */
+.login-button {
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.login-button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+/* Enlace para alternar entre login y registro */
+.toggle-link span {
+    color: #007bff;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.error-text {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}

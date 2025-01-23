@@ -1,0 +1,33 @@
+.productlist-container {
+    height: 100vh;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kichihua.com%2Fcomunicacion-con-padres-de-familia%2F&psig=AOvVaw02xULvS3BkKchA36NUUiNt&ust=1737682878271000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNjuyKfbiosDFQAAAAAdAAAAABAV");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-student-section {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.filter-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    color: #000;
+    font-size: 14px;
+}
+
+h1, h2, h4 {
+    color: #fff;
+}
